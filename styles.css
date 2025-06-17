@@ -18,6 +18,33 @@ header h1 {
   font-size: 2rem;
 }
 
+nav {
+  margin-top: 1rem;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.nav li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 main {
   max-width: 800px;
   margin: 2rem auto;
@@ -27,7 +54,7 @@ main {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
-h2 {
+h2, h3 {
   color: #44665e;
   margin-top: 2rem;
 }
