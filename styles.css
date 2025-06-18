@@ -70,3 +70,9 @@ footer {
   color: #888;
   margin: 4rem 0 2rem;
 }
+
+header h1.logo {
+  font-family: 'Playfair Display', serif;
+  text-transform: lowercase;
+  font-weight: 500;
+}
